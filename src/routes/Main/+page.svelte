@@ -23,7 +23,7 @@
 					class="flex h-full items-center rounded-r-lg bg-indigo-700 p-6 text-center text-white lg:pl-12 lg:text-left"
 				>
 					<div class="lg:pl-12">
-						<h2 class="mb-8 text-3xl font-bold">ლაშას პირში სტო ტიში ბიჭოოოოოოოო</h2>
+						<h2 class="mb-8 text-3xl font-bold">ჩვენ ვქმნით მხოლოდ საუკეთესოს</h2>
 						<p class="mb-8 pb-2 lg:pb-0">
 							ჩვენ ვქმნით მხოლოდ განსაკუთრებულ და უნიკალურ პროექტებს, ჩვენ არ ვართ დაინტერესებულები
 							მაღალ შემოსავლიან პროექტებზე, სრული ფოკუსი მხოლოდ პროექტის 'სიახლეზეა' ორიენტირებული.
