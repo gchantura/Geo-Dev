@@ -151,11 +151,10 @@
 				/>
 			</div>
 
-			<label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-				>I agree with the <a href="#" class="text-blue-600 hover:underline dark:text-blue-500"
-					>terms and conditions</a
-				>.</label
-			>
+			<label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+				I agree with the class="text-blue-600 hover:underline dark:text-blue-500">terms and
+				conditions
+			</label>
 		</div>
 
 		<button

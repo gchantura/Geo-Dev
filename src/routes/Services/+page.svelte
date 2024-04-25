@@ -7,7 +7,9 @@
 <div class="container mx-auto py-24 md:px-6">
 	<!-- Section: Design Block -->
 	<section>
-		<h2 class="mb-16 text-center text-2xl font-bold">პროექტის სიცოცხლის ციკლი</h2>
+		<h2 class="mb-16 text-center text-2xl font-bold text-neutral-500 dark:text-neutral-300">
+			პროექტის სიცოცხლის ციკლი
+		</h2>
 
 		<div class="mb-16 flex flex-wrap">
 			<div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
