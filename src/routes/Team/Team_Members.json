@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "imgsrc": "../../../src/Components/Images/Team_Members/Zaala.jpg",
+        "name": "ნიკოლოზ ზაალიშვილი",
+        "position": "CEO & Project Manager",
+        "description": "პროექტის მთავარი მენეჯერი, კომპანიის თანადამფუძნებე და გუნდის სულისჩამდგმელი.",
+        "Email": "zaala@zaala",
+        "Phone": "123456789",
+        "Facebook": "zaala",
+        "Instagram": "zaala",
+        "LinkedIn": "zaala"
+    },
+    {
+        "id": 2,
+        "imgsrc": "../../../src/Components/Images/Team_Members/Anna.jpg",
+        "name": "Zaala",
+        "position": "Developer",
+        "description": "Zaala is a developer who loves innovation and creativity.",
+        "Email": "zaala@zaala",
+        "Phone": "123456789",
+        "Facebook": "zaala",
+        "Instagram": "zaala",
+        "LinkedIn": "zaala"
+    },
+    {
+        "id": 3,
+        "imgsrc": "../../../src/Components/Images/Team_Members/Meladze.jpg",
+        "name": "ილია მელადზე",
+        "position": "Developer",
+        "description": "მთავარი ანალი სტი და სტატისტიკოსი",
+        "Email": "zaala@zaala",
+        "Phone": "123456789",
+        "Facebook": "zaala",
+        "Instagram": "zaala",
+        "LinkedIn": "zaala"
+    },
+    {
+        "id": 4,
+        "imgsrc": "../../../src/Components/Images/Team_Members/Meladze.jpg",
+        "name": "Lasha Enuqidze",
+        "position": "Developer",
+        "description": "ჭანტურიას მერე ყველაზე ყლე და გაყიდვების მენეჯერი ",
+        "Email": "zaala@zaala",
+        "Phone": "123456789",
+        "Facebook": "zaala",
+        "Instagram": "zaala",
+        "LinkedIn": "zaala"
+    },
+    {
+        "id": 4,
+        "imgsrc": "../../../src/Components/Images/Team_Members/Meladze.jpg",
+        "name": "Giorgi Chanturia",
+        "position": "Developer",
+        "description": "კომპანიის მთავარი ყლე და დეველოპერი",
+        "Email": "zaala@zaala",
+        "Phone": "123456789",
+        "Facebook": "zaala",
+        "Instagram": "zaala",
+        "LinkedIn": "zaala"
+    }
+]
