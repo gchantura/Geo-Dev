@@ -7,7 +7,7 @@
 	<!-- Section: Design Block -->
 	<section>
 		<h2 class="mb-16 text-center text-2xl font-bold text-neutral-500 dark:text-neutral-300">
-			პროექტის სიცოცხლის ციკლი
+			test
 		</h2>
 
 		<div class="mb-16 flex flex-wrap">
