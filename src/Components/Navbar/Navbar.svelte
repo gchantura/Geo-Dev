@@ -14,7 +14,7 @@
 	} from 'flowbite-svelte';
 	import { page } from '$app/stores';
 	$: activeUrl = $page.url.pathname;
-	import TransparentLogo from '/src/Components/Images/Brand_Images/Logo.svg';
+	import TransparentLogo from '/src/routes/Images/Brand_Images/Logo.svg';
 </script>
 
 <Navbar class="h-22 flex shadow-sm">

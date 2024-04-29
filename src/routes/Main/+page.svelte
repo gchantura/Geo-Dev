@@ -1,5 +1,5 @@
 <script>
-	import TeaserImage from '../../Components/Images/Page_Images/IT_Solution.jpeg';
+	import TeaserImage from '../Images/Page_Images/IT_Solution.jpeg';
 </script>
 
 <!-- Container for demo purpose -->

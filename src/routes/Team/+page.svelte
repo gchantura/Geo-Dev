@@ -1,5 +1,4 @@
 <script>
-	import Zaala from '../../Components/Images/Team_Members/Zaala.jpg';
 	import TeamCard from './TeamCard.svelte';
 </script>
 

@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imgsrc": "../../../src/Components/Images/Team_Members/Zaala.jpg",
+        "imgsrc": "../../../src/routes/Images/Team_Members/Zaala.jpg",
         "name": "ნიკოლოზ ზაალიშვილი",
         "position": "CEO & Project Manager",
         "description": "პროექტის მთავარი მენეჯერი, კომპანიის თანადამფუძნებე და გუნდის სულისჩამდგმელი.",
@@ -13,7 +13,7 @@
     },
     {
         "id": 2,
-        "imgsrc": "../../../src/Components/Images/Team_Members/Anna.jpg",
+        "imgsrc": "../../../src/routes/Images/Team_Members/Anna.jpg",
         "name": "Zaala",
         "position": "CEO & Project Manager",
         "description": "პროექტის მთავარი მენეჯერი, კომპანიის თანადამფუძნებე და გუნდის სულისჩამდგმელი.",
