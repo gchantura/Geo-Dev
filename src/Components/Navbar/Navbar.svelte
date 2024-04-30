@@ -14,7 +14,7 @@
 	} from 'flowbite-svelte';
 	import { page } from '$app/stores';
 	$: activeUrl = $page.url.pathname;
-	import TransparentLogo from './Images/logo.svg';
+	import TransparentLogo from '$lib/Images/Brand_Images/Logo.svg';
 </script>
 
 <Navbar class="h-22 flex shadow-sm">
@@ -34,7 +34,7 @@
 		</NavUl>
 
 		<div class="flex items-center pl-8 md:order-2">
-			<Avatar id="avatar-menu" src="./Images/GTchanturia.jpeg" />
+			<Avatar id="avatar-menu" src="/src/Components/Images/Team_Members/Zaala.jpg" />
 			<NavHamburger class1="w-full md:flex md:w-auto md:order-1" />
 		</div>
 		<Dropdown placement="bottom" triggeredBy="#avatar-menu">

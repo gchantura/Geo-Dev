@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imgsrc": "./Images/Zaala.jpg",
+        "imgsrc": "./Team_Members/Zaala.jpg",
         "name": "ნიკოლოზ ზაალიშვილი",
         "position": "CEO & პროექტების მენეჯერი",
         "description": "პროექტის მენეჯერი",
@@ -13,7 +13,7 @@
     },
     {
         "id": 2,
-        "imgsrc": "./Images/GTchanturia.jpeg",
+        "imgsrc": "./Team_Members/GTchanturia.jpeg",
         "name": "გიორგი ჭანტურია",
         "position": "CEO & დეველოპერი",
         "description": "ციფრული პროდუქციის დეველოპერი",
