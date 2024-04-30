@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "imgsrc": "../../../src/lib/Images/Team_Members/Zaala.jpg",
+        "imgsrc": "./Images/Zaala.jpg",
         "name": "ნიკოლოზ ზაალიშვილი",
-        "position": "CEO & Project Manager",
-        "description": "პროექტის მთავარი მენეჯერი, კომპანიის თანადამფუძნებე და გუნდის სულისჩამდგმელი.",
+        "position": "CEO & პროექტების მენეჯერი",
+        "description": "პროექტის მენეჯერი",
         "Email": "zaala@zaala",
         "Phone": "123456789",
         "Facebook": "zaala",
@@ -13,14 +13,13 @@
     },
     {
         "id": 2,
-        "imgsrc": "../../../src/lib/Images/Team_Members/Anna.jpg",
-        "name": "Zaala",
-        "position": "CEO & Project Manager",
-        "description": "პროექტის მთავარი მენეჯერი, კომპანიის თანადამფუძნებე და გუნდის სულისჩამდგმელი.",
-        "Email": "zaala@zaala",
-        "Phone": "123456789",
+        "imgsrc": "./Images/GTchanturia.jpeg",
+        "name": "გიორგი ჭანტურია",
+        "position": "CEO & დეველოპერი",
+        "description": "ციფრული პროდუქციის დეველოპერი",
+        "Email": "gcchanturia@gmail.com",
+        "Phone": "<a href='TEL:+995597291425'>+995 597-291-425</a>",
         "Facebook": "zaala",
-        "Instagram": "zaala",
-        "LinkedIn": "zaala"
+        "LinkedIn": "https://www.linkedin.com/in/giorgichanturiadev/"
     }
 ]

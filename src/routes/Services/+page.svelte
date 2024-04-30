@@ -1,6 +1,6 @@
 <!-- Container for demo purpose -->
 <script>
-	import GetInfoFromCustomer from '../../lib/Images/Page_Images/Get_Info_From_Customer.jpeg';
+	import GetInfoFromCustomer from './Images/Get_Info_From_Customer.jpeg';
 </script>
 
 <div class="container mx-auto py-24 md:px-6">
