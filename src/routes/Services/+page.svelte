@@ -7,7 +7,7 @@
 	<!-- Section: Design Block -->
 	<section>
 		<h2 class="mb-16 text-center text-2xl font-bold text-neutral-500 dark:text-neutral-300">
-			test
+			პროდუქციის შეკვეთის პროცედურა
 		</h2>
 
 		<div class="mb-16 flex flex-wrap">
@@ -31,7 +31,9 @@
 			</div>
 
 			<div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
-				<h3 class="mb-4 text-2xl font-bold">ინფორმაციის მიღება</h3>
+				<h3 class="mb-4 text-2xl font-bold text-neutral-900 dark:text-neutral-300">
+					ინფორმაციის მიღება
+				</h3>
 
 				<p class="leading-loose tracking-wider text-neutral-500 dark:text-neutral-300">
 					თქვენ გვიგზავნით შევსებულ 'ფორმას', სადაც არის მოცემული თქვენი მოთხოვნა და საკონტაქტო

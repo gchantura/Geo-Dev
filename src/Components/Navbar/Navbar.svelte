@@ -28,9 +28,8 @@
 		<NavUl {activeUrl}>
 			<NavLi href="/">მთავარი</NavLi>
 			<NavLi href="./Services">სერვისები</NavLi>
-			<NavLi href="./Team">შეთავაზებები</NavLi>
-			<NavLi href="/contact">თანამშრომლობა</NavLi>
-			<NavLi href="/contact">კონტაქტი</NavLi>
+			<NavLi href="./Team">ჩვენ შესახებ</NavLi>
+			<NavLi href="/contact">შეკვეთა</NavLi>
 		</NavUl>
 
 		<div class="flex items-center pl-8 md:order-2">
