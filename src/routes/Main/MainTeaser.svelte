@@ -1,8 +1,5 @@
 <script>
-	// @ts-nocheck
-
 	import TeaserImage from '../../lib/Images/Page_Images/IT_Solution.jpeg';
-	import MainCards from './MainCards.svelte';
 </script>
 
 <!-- Container for demo purpose -->
