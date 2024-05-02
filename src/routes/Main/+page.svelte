@@ -111,9 +111,3 @@
 		</div>
 	</section>
 </div>
-
-<style>
-	.Card img {
-		width: 400px;
-	}
-</style>
