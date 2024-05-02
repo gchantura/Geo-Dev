@@ -27,7 +27,8 @@
 		<NavHamburger />
 		<NavUl {activeUrl}>
 			<NavLi href="/">მთავარი</NavLi>
-			<NavLi href="./Services">სერვისები</NavLi>
+			<NavLi href="./Process">პროცედურა</NavLi>
+			<NavLi href="./Products">პროდუქცია</NavLi>
 			<NavLi href="./Team">ჩვენ შესახებ</NavLi>
 			<NavLi href="/contact">შეკვეთა</NavLi>
 		</NavUl>
