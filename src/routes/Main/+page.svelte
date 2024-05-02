@@ -1,100 +1,119 @@
 <script>
+	// @ts-nocheck
+
 	import TeaserImage from '../../lib/Images/Page_Images/IT_Solution.jpeg';
+	import FastDevelopment from '../../lib/Images/Page_Images/Fast_Development.jpeg';
+	import Tanamshromloba from '../../lib/Images/Page_Images/Tanamshromloba.jpeg';
+	import Experience from '../../lib/Images/Page_Images/Experience.jpeg';
+
+	import { Card, Button, Toggle } from 'flowbite-svelte';
+	let hCard = false;
 </script>
 
 <!-- Container for demo purpose -->
-<div class="container mx-auto pt-24 md:px-6">
+<div class="container mx-auto py-24 md:px-6">
 	<!-- Section: Design Block -->
-	<section>
-		<div class="flex flex-wrap">
-			<div class="mb-12 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
-				<div class="flex lg:py-12">
-					<!-- svelte-ignore a11y-img-redundant-alt -->
+	<section class="pb-32">
+		<div
+			class="block rounded-lg bg-gradient-to-r from-slate-700 to-slate-900 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.4),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+		>
+			<div class="flex flex-wrap items-center">
+				<div class="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
 					<img
 						src={TeaserImage}
-						class="z-[10] w-full basis-5/6 rounded-l-lg shadow-lg lg:ml-[50px] dark:shadow-black/20"
-						alt="image"
+						alt="Trendy Pants and Shoes"
+						class="w-full rounded-t-lg lg:rounded-bl-lg lg:rounded-tr-none"
 					/>
 				</div>
-			</div>
+				<div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
+					<div class="px-6 py-12 md:px-12">
+						<h2 class="mb-4 text-2xl font-bold text-neutral-200">ბიზნესის დიგიტალიზაცია</h2>
 
-			<div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-				<div
-					class="flex h-full items-center rounded-r-lg bg-indigo-700 p-6 text-center text-white lg:pl-12 lg:text-left"
-				>
-					<div class="lg:pl-12">
-						<h2 class="mb-8 text-3xl font-bold">ჩვენ გავხდით თქვენს ბიზნეს ცნობადს</h2>
-						<p class="mb-8 pb-2 lg:pb-0">
-							ჩვენ ვქმნით მხოლოდ განსაკუთრებულ და უნიკალურ პროექტებს, ჩვენ არ ვართ დაინტერესებულები
-							მაღალ შემოსავლიან პროექტებზე, სრული ფოკუსი მხოლოდ პროექტის 'სიახლეზეა' ორიენტირებული.
+						<p class="mb-6 text-neutral-100 dark:text-neutral-300"></p>
+
+						<p class="py-5 text-neutral-100 dark:text-neutral-300">
+							დიგიტალიზაციის წყალობით თქვენი ბიზნესი ხდება მარტივად ხელმისაწვდომი მომხმარებლისთვის.
 						</p>
 
-						<div class="mx-auto mb-8 flex flex-col md:flex-row md:justify-around xl:justify-start">
-							<p class="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0 xl:mr-20">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke-width="2"
-									stroke="currentColor"
-									class="mr-2 h-5 w-5"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-									/>
-								</svg>
-								პროფესიონალიზმი
-							</p>
-
-							<p class="mx-auto mb-4 flex items-center md:mx-0 md:mb-2 lg:mb-0 xl:mr-20">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke-width="2"
-									stroke="currentColor"
-									class="mr-2 h-5 w-5"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-									/>
-								</svg>
-								ხარისხი
-							</p>
-
-							<p class="mx-auto mb-2 flex items-center md:mx-0 lg:mb-0">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke-width="2"
-									stroke="currentColor"
-									class="mr-2 h-5 w-5"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-									/>
-								</svg>
-								გამოცდილება
-							</p>
-						</div>
-
-						<p>
-							გუნდი შედგება მხოლოდ საუკეთესოებისგან თავის პროფესიაში. რაც ხელს უწყობს პროექტების
-							საფუძვლიან გამოცდილებაზე დაყრდნობით, მაღალი ხარისხის პროფესიონალური პროდუქციის
-							შექმნას.
+						<p class="py-5 text-neutral-100 dark:text-neutral-300">
+							ხელმისაწვდომობა ზრდის მომხმარებლების რაოდენობას.
+						</p>
+						<p class="py-5 text-neutral-100 dark:text-neutral-300">
+							მომხმარებლების რაოდენობა ზრდის თქვენს ბიზნეს.
+						</p>
+						<p class="py-5 text-neutral-100 dark:text-neutral-300">
+							ბიზნესის ზრდა კი თქვენს შემოსავლებს
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Section: Design Block -->
 </div>
-<!-- Container for demo purpose -->
+
+<div class="container mx-auto py-24 md:px-6">
+	<section class="mb-32">
+		<h5
+			class="mb-10 text-center text-2xl font-semibold tracking-wider md:mb-6 dark:text-neutral-300"
+		>
+			ჩვენი უპირატესობები
+		</h5>
+		<div class="Card my-9">
+			<Card img={FastDevelopment} href="/" horizontal size="xl" reverse="true">
+				<h5
+					class="mb-2 text-2xl font-bold leading-loose tracking-wider text-gray-900 dark:text-white"
+				>
+					დამზადების ვადები
+				</h5>
+				<p class="mb-3 font-normal leading-loose text-gray-700 dark:text-gray-300">
+					ვებ-აპლიკაციის შექმნა სპეციფიკური პროცესია, და როგორც წესი მას თვეები ჭირდება.
+				</p>
+				<p class="mb-3 font-normal leading-loose text-gray-700 dark:text-gray-300">
+					ჩვენი უნიკალურობა ჩვენს გუნდში მდგომარეობს, საქმიანობა ისე გვაქვს გადანაწილებული რომ
+					პროექტის შექმნის ვადა, თვეები რამოდენიმე კვირად ან სულაც დღედ ვაქციეთ
+				</p>
+			</Card>
+		</div>
+
+		<div class="Card my-9">
+			<Card img={Tanamshromloba} href="/" horizontal size="xl" reverse="True">
+				<h5
+					class="mb-2 text-2xl font-bold leading-loose tracking-wider text-gray-900 dark:text-white"
+				>
+					პროექტის ხარისხი
+				</h5>
+				<p class="mb-3 font-normal leading-loose text-gray-700 dark:text-gray-300">
+					პროექტის ხარისხს განსაზღვრავს ის გამოცდილება რაც ჩვენს გუნდს გააჩნია ყველა რგოლში.
+					შეგიძლიათ იხილოთ ჩვენი გუნდის წევრების სექცია <a href="https://www.geodev.ge/Team"
+						>"ჩვენს შესახებ"</a
+					>
+				</p>
+				<p class="mb-3 font-normal leading-loose text-gray-700 dark:text-gray-300">
+					ჩვენ გაძლევთ კომფორტული, ოპერატიული და მაღალი ხარისხის თანამშრომლობის პირობას.
+				</p>
+			</Card>
+		</div>
+		<div class="Card my-9">
+			<Card img={Experience} href="/" horizontal size="xl" reverse="true">
+				<h5
+					class="mb-2 text-2xl font-bold leading-loose tracking-wider text-gray-900 dark:text-white"
+				>
+					გამოცდილება
+				</h5>
+				<p class="mb-3 font-normal leading-loose text-gray-700 dark:text-gray-300">
+					ჩვენი გუნდის წევრები, წლების განმავლობაში იკრებდნენ გამოცდილებას უცხოურ ბაზარზე
+				</p>
+				<p class="mb-3 font-normal leading-loose text-gray-700 dark:text-gray-300">
+					ეხლა კი ეს გუნდი ერთ მუშტად არის შეკრული იმისთვის რომ ქართულ ბაზარზე თავისი ცოდნით და
+					გამოცდილებით ლამაზი და შთამბეჭდავი კვალი დატოვოს.
+				</p>
+			</Card>
+		</div>
+	</section>
+</div>
+
+<style>
+	.Card img {
+		width: 400px;
+	}
+</style>
