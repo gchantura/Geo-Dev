@@ -7,7 +7,7 @@
 
 {#each Products as Product}
 	<div
-		class="items-center rounded-lg bg-gradient-to-r from-slate-700 to-slate-900 shadow sm:flex dark:border-gray-700 dark:bg-gray-800"
+		class="items-center rounded bg-gradient-to-r from-slate-700 to-slate-900 shadow sm:flex dark:border-gray-700 dark:bg-gray-800"
 	>
 		<div class="p-5">
 			<h3 class="py-5 text-xl font-bold tracking-tight text-gray-300 dark:text-white">
