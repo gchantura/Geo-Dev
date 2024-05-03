@@ -10,5 +10,5 @@
 <MainTeaser />
 <MainCards />
 <!-- <PenissEffect /> -->
-<ChupaChups />
+<!-- <ChupaChups /> -->
 <!-- <SnowEffect /> -->
