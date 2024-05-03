@@ -3,11 +3,11 @@
 </script>
 
 <!-- Container for demo purpose -->
-<div class="container mx-auto py-24 md:px-6">
+<div class="wave-text animate-wave container mx-auto py-24 md:px-6">
 	<!-- Section: Design Block -->
 	<section class="pb-32">
 		<div
-			class="block rounded-lg bg-gradient-to-r from-slate-700 to-slate-900 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.4),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+			class="relative block rounded-lg bg-gradient-to-r from-slate-700 to-slate-900 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.4),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
 		>
 			<div class="flex flex-wrap items-center">
 				<div class="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
@@ -24,7 +24,8 @@
 						<p class="mb-6 text-neutral-100 dark:text-neutral-300"></p>
 
 						<p class="py-3 text-neutral-100 dark:text-neutral-300">
-							დიგიტალიზაციის წყალობით თქვენი ბიზნესი ხდება მარტივად ხელმისაწვდომი მომხმარებლისთვის.
+							<span class="wave-text">დიგიტალიზაციის</span> წყალობით თქვენი ბიზნესი ხდება მარტივად ხელმისაწვდომი
+							მომხმარებლისთვის.
 						</p>
 
 						<p class="py-3 text-neutral-100 dark:text-neutral-300">
@@ -42,7 +43,7 @@
 								href="https://www.geodev.ge/order"
 								class="inline-flex items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
 							>
-								დაიწყე შეკვეთა
+								<span class="wave-text animate-wave">დაიწყე შეკვეთა</span>
 								<svg
 									class="ms-2 h-3.5 w-3.5 rtl:rotate-180"
 									aria-hidden="true"
@@ -63,7 +64,7 @@
 								href="#WhyWe"
 								class="inline-flex items-center justify-center rounded-lg border border-white px-8 py-3 text-center text-base font-medium text-white hover:bg-gray-100 hover:text-gray-900 focus:ring-4 focus:ring-gray-400 sm:ms-4"
 							>
-								გაიგე მეტი
+								<span class="wave-text animate-wave">გაიგე მეტი</span>
 							</a>
 						</div>
 					</div>
@@ -74,7 +75,19 @@
 </div>
 
 <style>
-	img:hover {
-		opacity: 0.8;
+	@keyframes wave {
+		0% {
+			text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+		}
+		50% {
+			text-shadow: 0 0 1px rgba(0, 255, 234, 0.8);
+		}
+		100% {
+			text-shadow: 0 0 3px rgba(0, 16, 156, 0.8);
+		}
+	}
+
+	.animate-wave {
+		animation: wave 1.5s infinite;
 	}
 </style>
