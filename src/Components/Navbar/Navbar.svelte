@@ -17,7 +17,7 @@
 	import TransparentLogo from '$lib/Images/Brand_Images/Logo.svg';
 </script>
 
-<Navbar class="h-22 flex shadow-2xl ">
+<Navbar class="h-22 flex	 shadow-2xl ">
 	<div class="logo-side basis-1/5">
 		<NavBrand class="flex h-16 rotate-[-32deg]" href="/">
 			<img class="min-h-16 skew-y-3 transform pt-32" src={TransparentLogo} alt="GeoDev" />
