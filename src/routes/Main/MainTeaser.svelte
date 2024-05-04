@@ -14,7 +14,7 @@
 					<img
 						src={TeaserImage}
 						alt="Trendy Pants and Shoes"
-						class="w-full rounded-t-lg lg:rounded-bl-lg lg:rounded-tr-none"
+						class="w-full rounded-t-lg opacity-90 hover:opacity-100 lg:rounded-bl-lg lg:rounded-tr-none"
 					/>
 				</div>
 				<div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
