@@ -28,27 +28,19 @@
 		<NavHamburger />
 		<NavUl {activeUrl}>
 			<NavLi href="/">მთავარი</NavLi>
-			<NavLi href="./Process">პროცედურა</NavLi>
+			<!-- <NavLi href="./Process">პროცედურა</NavLi> -->
 			<NavLi href="./Products">პროდუქცია</NavLi>
-			<NavLi href="./Team">ჩვენ შესახებ</NavLi>
+			<NavLi href="./Team">ჩვენი გუნდი</NavLi>
 			<NavLi href="/contact">შეკვეთა</NavLi>
 		</NavUl>
 
-		<div class="flex items-center pl-8 md:order-2">
-			<Avatar id="avatar-menu" src="/src/Components/Images/Team_Members/Zaala.jpg" />
-			<NavHamburger class1="w-full md:flex md:w-auto md:order-1" />
-		</div>
-		<Dropdown placement="bottom" triggeredBy="#avatar-menu">
-			<DropdownHeader>
-				<span class="block text-sm">Giorgi Tchanturia</span>
-				<span class="block truncate text-sm font-medium">gcchanturia@gmail.com</span>
-			</DropdownHeader>
-			<DropdownItem>Profile</DropdownItem>
-
-			<DropdownDivider />
-			<DropdownItem><NavLi href="/Registration">რეგისტრაცია</NavLi></DropdownItem>
-			<DropdownItem>Logout</DropdownItem>
-		</Dropdown>
 		<DarkMode />
 	</div></Navbar
 >
+
+<style>
+	* {
+		font-family: 'FiraGO';
+		font-weight: 300;
+	}
+</style>
