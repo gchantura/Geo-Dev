@@ -87,7 +87,7 @@
 	}
 
 	.bg-lights {
-		background-image: url('./All_Images/SectionBackgroundImage.jpg');
+		background-image: url('../../lib/Images/Page_Images/SectionBackgroundImage.jpg');
 	}
 	@keyframes show {
 		from {
