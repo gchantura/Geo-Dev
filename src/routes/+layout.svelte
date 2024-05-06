@@ -18,10 +18,10 @@
 	.main_content {
 		min-height: 100vh;
 		max-height: auto;
-		z-index: 1;
+		z-index: -1;
 	}
 	.header {
-		z-index: -1;
+		z-index: 1;
 	}
 	.footer {
 		box-shadow: 0 20px 50px rgba(46, 130, 240, 0.4);

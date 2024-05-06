@@ -1,24 +1,22 @@
 <script>
 	// @ts-nocheck
 
-	import TeaserImage from '../../lib/Images/Page_Images/IT_Solution.jpeg';
-	import FastDevelopment from '../../lib/Images/Page_Images/Fast_Development.jpeg';
-	import Tanamshromloba from '../../lib/Images/Page_Images/Tanamshromloba.jpeg';
-	import Experience from '../../lib/Images/Page_Images/Experience.jpeg';
-
 	import { Card, Button, Toggle } from 'flowbite-svelte';
 	let hCard = false;
 </script>
 
 <div id="WhyWe" class="container mx-auto py-24 md:px-6">
-	<section class="mb-32">
-		<h5
-			class="mb-10 text-center text-2xl font-semibold tracking-wider md:mb-6 dark:text-neutral-300"
+	<section class="mb-32 flex flex-col">
+		<!-- <h5
+			class="mb-10 text-center text-4xl font-semibold tracking-wider text-blue-950 md:mb-6 dark:text-neutral-300"
 		>
 			ჩვენი უპირატესობები
-		</h5>
+		</h5> -->
 		<div class="Card my-9 hover:opacity-90">
-			<Card class="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500" size="xl">
+			<Card
+				class="flex flex-col  rounded bg-gradient-to-r from-slate-700 to-slate-900 p-5 shadow sm:flex dark:border-gray-700 dark:bg-gray-800"
+				size="xl"
+			>
 				<h5
 					class="mb-2 text-2xl font-bold leading-loose tracking-wider text-gray-100 dark:text-white"
 				>
@@ -35,7 +33,7 @@
 		</div>
 
 		<div class="Card my-9 hover:opacity-90">
-			<Card class="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500" size="xl">
+			<Card class="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-800" size="xl">
 				<h5
 					class=" mb-2 text-2xl font-bold leading-loose tracking-wider text-gray-100 dark:text-white"
 				>
@@ -54,7 +52,10 @@
 			</Card>
 		</div>
 		<div class="Card my-9 hover:opacity-90">
-			<Card class="bg-gradient-to-r from-purple-900 via-purple-700 to-purple-500" size="xl">
+			<Card
+				class="flex flex-col  rounded bg-gradient-to-r from-slate-700 to-slate-900 p-5 shadow sm:flex dark:border-gray-700 dark:bg-gray-800"
+				size="xl"
+			>
 				<h5
 					class="mb-2 text-2xl font-bold leading-loose tracking-wider text-gray-100 dark:text-white"
 				>
@@ -73,6 +74,9 @@
 </div>
 
 <style>
+	.Card {
+		width: 80vw;
+	}
 	img:hover {
 		opacity: 0.8;
 	}
